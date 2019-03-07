@@ -1,3 +1,64 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 body {
-    background-color: pink;
+    background-color: lightgrey;
+}
+
+.page-title {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid green;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navLinks {
+    background-color: darkgrey;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#navLinks li {
+    display: inline;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.content {
+    padding-top: 130px;
+}
+
+.indivCard {
+    border: 2px solid darkolivegreen;
+    background-color: darkgrey;
+    color: white;
+    width: 30%;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#bioPage {
+
+}
+
+#technologiesPage {
+
+}
+
+#projectsPage {
+
 }
