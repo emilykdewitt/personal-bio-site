@@ -1,64 +1,112 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
-}
-body {
-    background-color: lightgrey;
+    font-family: 'Muli', sans-serif;
 }
 
-.page-title {
-    background-color: navy;
+body {
+    background-color: #BCD8C1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#page-title {
+    background-color:#007991;
+    margin: 10px;
     color: white;
     text-align: center;
-    padding: 20px;
-    border: 2px solid green;
+    padding: 5px;
     border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+#page-title h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5em;
+    padding: 0;
+    margin: 10px;
+}
+
+.header-photo {
+    border-radius: 50%;
+    padding: 10px 0 0 0 ;
+    height: 18%;
+}
+
+nav {
+    width: 100%;
 }
 
 #navLinks {
-    background-color: darkgrey;
+    color: lightgrey;
+    background-color: #222E50;
+    font-size: 1.2em;
+    font-style: bold;
+    border-radius: 10px;
     list-style-type: none;
     margin: 0;
-    padding: 0;
     display: flex;
-    flex-wrap: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 10px;
+    text-decoration: none;
 }
 
 #navLinks li {
     display: inline;
-}
-
-nav {
-    position: fixed;
-    top: 0;
-    width: 100%
+    text-decoration: none;
 }
 
 .content {
-    padding-top: 130px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#projectsPage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .indivCard {
-    border: 2px solid darkolivegreen;
-    background-color: darkgrey;
+    background-color: #439A86;
     color: white;
-    width: 30%;
+    width: 31%;
     border-radius: 15px;
-    margin: 0 auto;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     text-align: center;
+    flex-wrap: wrap;
+}
+
+.screenshot-img {
+    width: 75px;
 }
 
 #bioPage {
-
+    font-size: 1.1em;
 }
 
 #technologiesPage {
-
+    font-size: 1em;
 }
 
 #projectsPage {
 
+}
+
+.page-footer {
+    margin: 0;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #007991;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.icon {
+    width: 50px;
 }
