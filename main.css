@@ -49,9 +49,13 @@ nav {
     text-decoration: none;
 }
 
-#navLinks li {
-    display: inline;
+#navLinks a {
     text-decoration: none;
+    color: white;
+}
+
+#navLinks a:hover {
+    text-transform: uppercase;
 }
 
 .content {
