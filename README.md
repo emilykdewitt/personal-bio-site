@@ -17,4 +17,4 @@ $ git clone https://github.com/emilykdewitt/personal-bio-site.git
 
 
 ## Running
-Browse to pie directory and run http server.
+Browse to `personal-bio-site` directory and run http server.
