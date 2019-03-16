@@ -2,7 +2,7 @@
 This site provides users with a summary of my personal background, professional experience, an overview of technologies I've used, and a sampling of projects I have worked on.
 
 ## Images
-![Personal Bio Screenshot]()
+![Personal Bio Screenshot](https://raw.githubusercontent.com/emilykdewitt/personal-bio-site/readmefix/personal-bio-screenshot.png)
 
 ## Getting Started
 ```
